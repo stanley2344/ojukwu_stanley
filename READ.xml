@@ -1,2 +1,52 @@
-<?xml version "1.0" encoding UTF-8?>
-<!--<class>
+<?xml version="1.0" encoding="UTF-8"?>
+<group>
+   <student>
+        <name>stanley</name>
+        <favlang>Python</favlang>
+        <sex>Male</sex>
+        <favfood>rice</favfood>
+        <course>java</course>
+    </student>
+    <student>
+        <name>mofe</name>
+        <favlang>Javascript</favlang>
+        <sex>Male</sex>
+        <favfood>pasta</favfood>
+        <course>java</course>
+    </student>
+    <student>
+        <name>eri</name>
+        <favlang>c#</favlang>
+        <sex>Female</sex>
+        <favfood>porridge</favfood>
+        <course>java</course>
+    </student>
+    <student>
+        <name>steven</name>
+        <favlang>C</favlang>
+        <sex>Male</sex>
+        <favfood>plantain</favfood>
+        <course>java</course>
+    </student>
+    <student>
+        <name>mustapha</name>
+        <favlang>Python</favlang>
+        <sex>Male</sex>
+        <favfood>yam</favfood>
+        <course>react</course>
+    </student>
+    <student>
+        <name>samuel</name>
+        <favlang>Python</favlang>
+        <sex>Male</sex>
+        <favfood>beans</favfood>
+        <course>php</course>
+    </student>
+    <student>
+        <name>gabriel</name>
+        <favlang>Python</favlang>
+        <sex>Male</sex>
+        <favfood>rice</favfood>
+        <course>java</course>
+    </student>
+</group>
