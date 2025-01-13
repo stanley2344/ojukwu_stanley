@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family>
+    <people>
+        <person age="28" occupation="Software Engineer" marital_status="single">
+            <name>John Smith</name>
+            <location>San Francisco</location>
+            <email>john.smith@email.com</email>
+        </person>
+        <person age="35" occupation="Teacher" marital_status="married">
+            <name>Sarah Johnson</name>
+            <location>New York</location>
+            <email>sarah.j@email.com</email>
+        </person>
+        <person age="42" occupation="Doctor" marital_status="divorced">
+            <name>Michael Chen</name>
+            <location>Chicago</location>
+            <email>m.chen@email.com</email>
+        </person>
+        <person age="31" occupation="Artist" marital_status="single">
+            <name>Emma Wilson</name>
+            <location>Los Angeles</location>
+            <email>emma.w@email.com</email>
+        </person>
+        <person age="45" occupation="Architect" marital_status="married">
+            <name>Robert Garcia</name>
+            <location>Seattle</location>
+            <email>r.garcia@email.com</email>
+        </person>
+    </people>
+    <pets>
+        <pet species="dog" breed="Golden Retriever" owner_id="1">
+            <name>Max</name>
+            <color>Golden</color>
+        </pet>
+    </pets>
+</family>
