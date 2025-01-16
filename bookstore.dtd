@@ -1,0 +1,12 @@
+<!ELEMENT bookstore (book+)>
+<!ELEMENT book (author)>
+<!ATTLIST book 
+    title CDATA #REQUIRED
+    genre CDATA #REQUIRED
+    price CDATA #REQUIRED>
+<!ELEMENT author EMPTY>
+<!ATTLIST author 
+    firstName CDATA #REQUIRED
+    lastName CDATA #REQUIRED
+    age CDATA #IMPLIED
+    nationality CDATA #IMPLIED>
