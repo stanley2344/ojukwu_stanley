@@ -1,0 +1,37 @@
+bookstore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Arial, sans-serif;
+}
+
+book {
+    display: block;
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+book[genre="Fiction"] {
+    background-color: #f9f9f9;
+}
+
+book[genre="Non-Fiction"] {
+    background-color: #e9f7ef;
+}
+
+book[genre="Science Fiction"] {
+    background-color: #e8f4fc;
+}
+
+book[genre="Fantasy"] {
+    background-color: #fce8f1;
+}
+
+author {
+    display: block;
+    font-style: italic;
+    margin-top: 5px;
+}

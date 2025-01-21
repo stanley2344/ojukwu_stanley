@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="bookstore.css"?>
 <!DOCTYPE bookstore SYSTEM "bookstore.dtd">
 <bookstore>
     <book title="Book One" genre="Fiction" price="19.99">
-        <author firstName="John" lastName="Doe" age="45" nationality="American" />
+        <author firstName="John" lastName="Doe" age="45" nationality="American">John</author>
     </book>
     <book title="Book Two" genre="Non-Fiction" price="29.99">
-        <author firstName="Jane" lastName="Smith" age="38" nationality="British" />
+        <author firstName="Jane" lastName="Smith" age="38" nationality="British">Smith</author>
     </book>
     <book title="Book Three" genre="Science Fiction" price="24.99">
-        <author firstName="Emily" lastName="Johnson" age="50" nationality="Canadian" />
+        <author firstName="Emily" lastName="Johnson" age="50" nationality="Canadian">Emily</author>
     </book>
     <book title="Book Four" genre="Fantasy" price="14.99">
-        <author firstName="Michael" lastName="Brown" age="60" nationality="Australian" />
+        <author firstName="Michael" lastName="Brown" age="60" nationality="Australian">Michael</author>
     </book>
-</bookstore>
+</bookstore>    
