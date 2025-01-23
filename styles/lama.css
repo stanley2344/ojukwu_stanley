@@ -1,0 +1,54 @@
+family {
+    display: block;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+people, pets {
+    display: block;
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+person, pet {
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+name {
+    display: block;
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+location, email, color {
+    display: block;
+    color: #34495e;
+    margin: 5px 0;
+}
+
+person::before {
+    content: "Person Details";
+    display: block;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+pet::before {
+    content: "Pet Details";
+    display: block;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 10px;
+}
